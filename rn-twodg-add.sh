@@ -5,5 +5,11 @@ rn3=$((RANDOM%20))
 rn4=$((RANDOM%20))
 rn5=$((RANDOM%20))
 
+echo $rn1
+echo $rn2
+echo $rn3
+echo $rn4
+echo $rn5
+
 sum=$(( $rn1+$rn2+$rn3+$rn4+$rn5 ))
 echo "Sum is: $sum"
