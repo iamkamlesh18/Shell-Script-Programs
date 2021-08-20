@@ -1,3 +1,3 @@
 #!/bin/bash
 randomCheck=$((RANDOM%2))
-echo "$randomCheck"
+echo "Random Number Check: " "$randomCheck"
