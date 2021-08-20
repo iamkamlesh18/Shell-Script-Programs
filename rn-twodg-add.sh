@@ -6,4 +6,4 @@ rn4=$((RANDOM%20))
 rn5=$((RANDOM%20))
 
 sum=$(( $rn1+$rn2+$rn3+$rn4+$rn5 ))
-echo "Sum is: $sum
+echo "Sum is: $sum"
