@@ -12,4 +12,8 @@ echo "Fourth Number: "$rn4
 echo "Fifth Number:  "$rn5
 
 sum=$(( $rn1+$rn2+$rn3+$rn4+$rn5 ))
-echo "Sum is: $sum"
+avg=$((sum/5))
+
+echo "Sum is     :" $sum
+echo "Average is :" $avg
+
